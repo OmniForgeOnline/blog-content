@@ -1,0 +1,28 @@
+name: Validate posts
+
+on:
+  pull_request:
+    paths:
+      - 'posts/**'
+      - 'images/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Validate frontmatter and assets
+        run: npm run validate
+      - name: Build (catches HTML rendering / URL rewriting errors)
+        run: npm run build
