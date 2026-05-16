@@ -3,7 +3,7 @@ title: "We Automated the Parts of Development Nobody Wants to Do"
 slug: "we-automated-the-parts-of-development-nobody-wants-to-do"
 brief: "Automated code review, merge request creation, and standup summaries for GitLab, GitHub, and Slack."
 publishedAt: "2026-04-07T11:52:00Z"
-coverImage: "/images/we-automated-the-parts-of-development-nobody-wants-to-do/cover.png"
+coverImage: "/images/we-automated-the-parts-of-development-nobody-wants-to-do/cover.webp"
 coverImageAlt: "We Automated the Parts of Development Nobody Wants to Do"
 tags: ["automation", "developer-tools", "ai", "code-review", "github", "gitlab", "slack"]
 author:

@@ -3,7 +3,7 @@ title: "Green AI at the Edge: When Local LLMs Save Electricity and Water"
 slug: "green-ai-at-the-edge"
 brief: "Right-sized inference beats the local-vs-cloud debate"
 publishedAt: "2026-05-04T21:04:00Z"
-coverImage: "/images/green-ai-at-the-edge/cover.png"
+coverImage: "/images/green-ai-at-the-edge/cover.webp"
 coverImageAlt: "Green AI at the Edge: When Local LLMs Save Electricity and Water"
 tags: ["ai-sustainability", "local-llm", "green-ai", "on-device-inference", "quantization"]
 author:

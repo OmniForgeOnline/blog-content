@@ -3,7 +3,7 @@ title: "OmniForge Desktop: Local-First Document Intelligence for macOS"
 slug: "omniforge-desktop-local-first-document-intelligence-for-macos"
 brief: "Your documents and audio recordings in one private, searchable workspace on your Mac."
 publishedAt: "2026-04-15T22:10:00Z"
-coverImage: "/images/omniforge-desktop-local-first-document-intelligence-for-macos/cover.png"
+coverImage: "/images/omniforge-desktop-local-first-document-intelligence-for-macos/cover.webp"
 coverImageAlt: "OmniForge Desktop: Local-First Document Intelligence for macOS"
 tags: ["product-launch", "document-intelligence", "privacy", "macos", "local-ai", "private-ai", "local-llm", "ai-transcription", "on-device-ai"]
 author:

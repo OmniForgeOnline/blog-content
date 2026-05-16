@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "test": "node --test scripts/*.test.mjs",
     "validate": "node scripts/validate.mjs",
     "prebuild": "node scripts/validate.mjs"
   },
@@ -17,5 +19,8 @@
     "remark-rehype": "11.1.1",
     "unified": "11.0.5",
     "unist-util-visit": "5.0.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
   }
 }

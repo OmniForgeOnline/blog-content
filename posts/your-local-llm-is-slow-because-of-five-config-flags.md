@@ -3,7 +3,7 @@ title: "Your Local LLM Is Slow Because of Five Config Flags"
 slug: "your-local-llm-is-slow-because-of-five-config-flags"
 brief: "KV cache, context size, and batch size control more of the performance budget than most people realize"
 publishedAt: "2026-04-15T21:37:00Z"
-coverImage: "/images/your-local-llm-is-slow-because-of-five-config-flags/cover.png"
+coverImage: "/images/your-local-llm-is-slow-because-of-five-config-flags/cover.webp"
 coverImageAlt: "Your Local LLM Is Slow Because of Five Config Flags"
 tags: ["llm", "llamacpp", "llama-cpp", "ollama", "local-ai", "local-llm", "local-inference", "apple-silicon", "llm-performance-optimization", "kv-cache", "flash-attention", "batch-size-optimization"]
 author:
