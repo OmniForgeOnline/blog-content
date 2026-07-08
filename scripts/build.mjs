@@ -110,6 +110,8 @@ async function buildPost(file) {
       }
     : null;
 
+  const offering = data.offering ?? null;
+
   const post = {
     id: slug,
     title: String(data.title),
@@ -122,6 +124,7 @@ async function buildPost(file) {
     seo,
     tags,
     author,
+    offering,
   };
 
   const fullPost = { ...post, content: { html } };
