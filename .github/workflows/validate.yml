@@ -22,6 +22,8 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Test publishing scripts
+        run: npm test
       - name: Validate frontmatter and assets
         run: npm run validate
       - name: Build (catches HTML rendering / URL rewriting errors)
